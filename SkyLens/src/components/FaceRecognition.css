@@ -1,0 +1,66 @@
+.face-recognition-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.face-recognition-status {
+    margin-bottom: 10px;
+    color: #ccc;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.face-recognition-container {
+    position: relative;
+    width: 640px;
+    height: 480px;
+    background-color: #000;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    border: 1px solid #333;
+}
+
+.face-recognition-canvas {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.face-recognition-image-result {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.face-recognition-loader {
+    margin-bottom: 15px;
+    color: #00FF00;
+    font-family: monospace;
+}
+
+.face-recognition-controls {
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.face-recognition-retry-btn {
+    padding: 12px 24px;
+    background-color: #333;
+    color: white;
+    border: 1px solid #00FF00;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.face-recognition-video-hidden {
+    display: none;
+}
